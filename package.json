@@ -1,11 +1,11 @@
 {
-  "name": "coze1-vercel1-proxy1",
+  "name": "coze-vercel-proxy",
   "version": "1.0.0",
   "engines": {
-    "node": "24.x" // 关键修改：将 18.x 改为 24.x 或更新版本
+    "node": "20.x"
   },
   "scripts": {
-    "start": "node api/chat.js" // 强烈建议添加：告诉 Vercel 如何启动应用
+    "start": "node api/chat.js"
   },
   "dependencies": {
     "axios": "^1.6.0"
